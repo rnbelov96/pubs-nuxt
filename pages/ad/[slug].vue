@@ -18,6 +18,10 @@
 <script setup>
 import { pubsService } from '../../services';
 
+definePageMeta({
+  middleware: 'is-authenticated',
+});
+
 const route = useRoute();
 const router = useRouter();
 

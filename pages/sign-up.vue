@@ -26,6 +26,10 @@
 </template>
 
 <script setup>
+definePageMeta({
+  middleware: 'redirect-auth',
+});
+
 const authStore = useAuthStore();
 const router = useRouter();
 

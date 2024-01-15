@@ -27,7 +27,5 @@ export default defineNuxtConfig({
   },
   components: [
     '~/common/components',
-    '~/modules/menu',
-    '~/modules/cart',
   ],
 });
